@@ -14,6 +14,8 @@ public class SauceDemoPages {
 		PageFactory.initElements(Driver.getDriver(), this);
 	}
 	
+	
+	
 	@FindBy (css = ".bot_column")
 	public WebElement homepage;
 	
